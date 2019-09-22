@@ -27,7 +27,7 @@ public class Dialer {
 				//Maintain details base for app and ARD
 				DesiredCapabilities dc=new DesiredCapabilities();
 				dc.setCapability(CapabilityType.BROWSER_NAME,"");
-				dc.setCapability("deviceName","PNXID18120902127");
+				dc.setCapability("deviceName","PNXID18120902127");//nokia8.1
 				dc.setCapability("platformName","Android");
 				dc.setCapability("platformVersion","9");
 				dc.setCapability("appPackage","com.google.android.dialer");
